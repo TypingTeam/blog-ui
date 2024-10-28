@@ -1,6 +1,6 @@
 {
-  "name": "blog-ui",
-  "version": "0.0.0",
+  "name": "the-keeper-blog",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
