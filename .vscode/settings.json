@@ -1,3 +1,9 @@
 {
-    "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.enabled": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.angular": true,
+    "blog-ui-wsp.code-workspace": true,
+    ".gitignore": true
+  },
 }
