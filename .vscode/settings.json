@@ -3,7 +3,14 @@
   "files.exclude": {
     "**/node_modules": true,
     "**/.angular": true,
+    "**/coverage": true,
     "blog-ui-wsp.code-workspace": true,
     ".gitignore": true
+  },
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "externalTemplate": true,
+      "style": "scss"
+    }
   },
 }
