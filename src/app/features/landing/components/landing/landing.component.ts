@@ -8,5 +8,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './landing.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LandingComponent {
-}
+export class LandingComponent {}
