@@ -16,9 +16,7 @@
             "outputPath": "dist/blog-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -27,8 +25,14 @@
               }
             ],
             "styles": [
+              "src/styles/vars.scss",
+              "src/styles/typography.scss",
+              "src/styles/bootstrap.scss",
               "src/styles.css"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["./styles"]
+            },
             "scripts": []
           },
           "configurations": {
