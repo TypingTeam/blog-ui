@@ -1,3 +1,7 @@
-<app-blog-layout-header />
-<router-outlet></router-outlet>
-<app-blog-layout-footer />
+<app-blog-layout-header flexLayout="column"></app-blog-layout-header>
+<div flexLayout="row" fxFlex>
+  <div fxFlex class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<app-blog-layout-footer flexLayout="column"></app-blog-layout-footer>
