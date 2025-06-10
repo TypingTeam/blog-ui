@@ -4,6 +4,8 @@
     "**/node_modules": true,
     "**/.angular": true,
     "**/coverage": true,
+    "**/dist": true,
+    "**/public": true,
     "blog-ui-wsp.code-workspace": true,
     ".gitignore": true
   },
