@@ -2,4 +2,4 @@
 TBD
 
 Stack:
-- Angular (20)
+- Angular (21)
